@@ -1,0 +1,1 @@
+Aplikacja dostępna pod 54.38.52.140:3456

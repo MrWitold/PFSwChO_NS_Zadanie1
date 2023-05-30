@@ -66,6 +66,9 @@ func (t *TimeService) CheckUserIP(c *gin.Context) {
 
 	loc, err := time.LoadLocation(data.Timezone)
 	if err != nil {
+		log.WithFields(log.Fields{
+			"timezone": data.Timezone,
+		}).Error(err)
 		c.JSON(http.StatusInternalServerError, "cant load timezone")
 		return
 	}
