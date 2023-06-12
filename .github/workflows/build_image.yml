@@ -1,4 +1,4 @@
-name: build_and_deploy:GitHub Action flow to Docker hub with local cache
+name: build_image:GitHub Action flow to Docker hub with local cache
 
 on:
   workflow_dispatch:

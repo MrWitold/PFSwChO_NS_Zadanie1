@@ -27,6 +27,6 @@ RUN apk add --no-cache tzdata
 
 COPY --from=BuildStage /TimeShower/app /app
 
-EXPOSE 3456
+EXPOSE 80
 
 ENTRYPOINT ["/app"]

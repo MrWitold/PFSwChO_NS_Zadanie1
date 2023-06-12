@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    image: pawelczerwieniec/lab:PFSwChO_NS_Zadanie2
+    ports:
+      - "80:80"
