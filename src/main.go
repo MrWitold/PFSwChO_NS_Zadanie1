@@ -14,7 +14,7 @@ func main() {
 		"name":         "Paweł",
 		"surname":      "Czerwieniec",
 		"server_port":  3456,
-	}).Info("Starting info - 1") // Log informacyjny (Zadanie 1a)
+	}).Info("Starting info - 2") // Log informacyjny (Zadanie 1a)
 
 	timeService := NewTimeService()
 
