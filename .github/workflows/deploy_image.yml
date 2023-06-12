@@ -23,8 +23,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: pfswcho_app
-          environment_name: pfswcho_app_env
+          application_name: pfswcho-app
+          environment_name: pfswcho-app-env
           version_label: ${{ steps.tagName.outputs.tag }}
-          region: us-east-1
+          region: eu-west-1
           deployment_package: deploy.zip
